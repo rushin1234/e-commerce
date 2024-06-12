@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-right i {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: black;
+}
+.nav-right i:hover {
+    color: rgb(82, 80, 80);
+}
+
+.cart span {
+    padding: 2px 6px;
+    font-size: 11px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: -12px;
+    left: -9px;
+}

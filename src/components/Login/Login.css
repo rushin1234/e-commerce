@@ -1,0 +1,15 @@
+.login {
+    width: 500px;
+    max-width: 90vw;
+    margin: 20px auto;
+}
+
+.login p{
+    margin-top: 20px;
+}
+
+.login p span {
+    color: blue;
+    cursor: pointer;
+    margin-left: 1px;
+}
